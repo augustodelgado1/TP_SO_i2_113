@@ -8,4 +8,4 @@ a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
 Resp: Sincronizando el FORK en github.
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
-Resp: ALFA no puede actualizar su FORK al estado del FORK de GAMMA.
+Resp: No, por que github detecta que ya existe un fork al repositorio original.
