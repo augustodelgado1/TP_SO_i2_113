@@ -1,3 +1,1 @@
-JOSE BENAVENTE
-Thu Nov  3 15:52:50     2022
-Direccion IPv4: 192.168.0.35
+
