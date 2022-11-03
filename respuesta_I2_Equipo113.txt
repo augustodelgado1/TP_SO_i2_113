@@ -1,5 +1,16 @@
 Delgado Augusto 
-
 Cossa Gonzalo
-
 Benavente Jose
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Resp: Sincronizando el FORK en github.
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Resp: No, por que github detecta que ya existe un fork al repositorio original.
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Resp: No, por que github detecta que ya existe un fork al repositorio original.
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+Resp: No , los datos editados por mi no se pierden al actualizar el repositorio
