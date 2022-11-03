@@ -13,4 +13,4 @@ Resp: No, por que github detecta que ya existe un fork al repositorio original.
 
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
-Resp: No , los datos editados por mi no se pierden al actualizar el repositorio
+Resp: No , los datos editados por mi no se pierden al actualizar el repositorio.
