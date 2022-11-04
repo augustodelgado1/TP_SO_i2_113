@@ -1,4 +1,4 @@
-Delgado Augusto 
+﻿Delgado Augusto 
 Cossa Gonzalo
 Benavente Jose
 
@@ -14,3 +14,85 @@ Resp: No, por que github detecta que ya existe un fork al repositorio original.
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 Resp: No , los datos editados por mi no se pierden al actualizar el repositorio
+
+e- Realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos.
+
+Alfa: Cossa Gonzalo
+Beta: Delgado Augusto
+Gamma: Benavente Jose
+
+	Beta:
+	Beta crea repositorio con readme y archivo fork.txt desde github
+	
+	Gamma:
+
+	git clone https://github.com/JoseFL1999/TP_SO_i2_113-1
+	git status
+	git add .
+	git commit -m "Archivo fork"
+	git push
+
+	Alfa:
+	git clone https://github.com/GonzaloCossa/TP_SO_i2_113-1
+	git status
+	git add .
+	git commit -m "ALFA modifica datos.txt"
+	git push
+
+	Beta:
+	git init
+	touch NuevoDato.txt
+	git status
+	git add.
+	git commit -m "Archivo NuevoDato.txt"
+	git remote add origin https://github.com/augustodelgado1/TP_SO_i2_113-1.git
+	git push
+
+	Gamma: 
+	git remote add upstream https://github.com/augustodelgado1/TP_SO_i2_113-1.git
+	git fetch upstream
+	git checkout main
+	git rebase upstream/main
+	git push
+
+	Alfa: 
+	git remote add upstream https://github.com/augustodelgado1/TP_SO_i2_113-1.git
+	git fetch upstream
+	git checkout main
+	git rebase upstream/main
+	git push
+
+	Beta:
+	touch respuesta_I2_Equipo113.txt
+	git add .
+	git commit -m "se crea el archivo de respuestas"
+	git push
+
+	Gamma: 
+	git fetch upstream
+	git checkout main
+	git rebase upstream/main
+	git status
+	git add -A
+	git commit -m "GAMMA contesta pregunta a y b del punto 4"
+	git push
+
+	Beta: 
+	git remote add upstream https://github.com/JoseFL1999/TP_SO_i2_113-1.git
+	git fetch upstream
+	git checkout main
+	git rebase upstream/main
+	git add .
+	git commit -m "Update respuesta_I2_Equipo113.txt"
+	git push
+
+	Alfa: 
+	git remote remove upstream
+	git remote add upstream https://github.com/augustodelgado1/TP_SO_i2_110.git
+	git fetch upstream
+	git checkout main
+	git rebase upstream/main
+	git add .
+	git commit -m "ALFA sube la respuesta e"
+	git push
